@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    
+</head>
+<body>
+    <h1>Registro de Usuarios</h1>
+    <form action="procesar-formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" required>
+        <br>
+
+        <label for="dni">D.N.I:</label>
+        <input type="text" name="dni" id="dni" required>
+        <br>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" name="telefono" id="telefono">
+        <br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" required>
+        <br>
+
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

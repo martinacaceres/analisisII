@@ -1,0 +1,39 @@
+html {
+    --s: 100px; 
+    
+    --c:#0000 48%,#F8EDD1 0 52%,#0000 0;
+    background:
+      linear-gradient(-45deg,var(--c)),
+      linear-gradient( 45deg,var(--c)),
+      repeating-conic-gradient(from 45deg,#e5aef3 0 25%,#e5d0e7 0 50%);
+    background-size: var(--s) var(--s);
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button{
+    border-radius: 4px;
+    border: unset;
+    padding: 15px 30px;
+    font-size: larger;
+}
+button{
+    background-color: #e5aef3;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.col-sm-2 {
+    position: absolute;
+    left: 100000px;
+    top:auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
